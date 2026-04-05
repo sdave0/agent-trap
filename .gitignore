@@ -1,0 +1,28 @@
+# API Keys and Sensitive Environment Variables
+.env
+
+# Local SQLite Databases
+*.db
+*.db-wal
+*.db-shm
+
+# Python Virtual Environment and Caches
+venv/
+.pytest_cache/
+__pycache__/
+
+# Node.js / Frontend dependencies and builds
+dashboard/node_modules/
+dashboard/dist/
+node_modules/
+dist/
+build/
+
+# Local Dev Workspace and Temporary Notes
+my-workspace/
+change_history_today.md
+building-phases.md
+
+# OS specific files
+.DS_Store
+Thumbs.db
